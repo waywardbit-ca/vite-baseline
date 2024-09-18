@@ -34,9 +34,9 @@ const applyMode = () => {
 </script>
 
 <template>
-  <button class="btn btn-light"><span class="fad" :class="{
+  <button class="btn" :title="darkMode ? 'Light mode': 'Dark mode'"><span class="fad" :class="{
     'fa-moon': darkMode === false,
-    'fa-sun': darkMode === true
+    'fa-circle': darkMode === true
   }"
   @click="toggle"></span></button>
 </template>

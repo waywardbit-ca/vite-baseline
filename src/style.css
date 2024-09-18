@@ -1,2 +1,3 @@
-:root {
-}
+:root [data-bs-theme="snow"] {
+        --bs-body-bg: white;
+    }
